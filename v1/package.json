@@ -1,7 +1,11 @@
 {
-  "name": "bloodbank",
+  "name": "bloodbank-app",
   "version": "1.0.0",
+  "description": "Blood Bank App",
   "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "express": "^4.18.2"
   }

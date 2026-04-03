@@ -11,7 +11,7 @@ app.post('/add', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.send("Blood Bank v1 running");
+   res.sendFile(__dirname + '/index.html');
 });
 
 app.listen(3000, () => console.log("Server running on port 3000"));

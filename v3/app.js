@@ -11,7 +11,7 @@ app.post('/add', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.send("Blood Bank v1 running");
+    res.sendFile(__dirname + '/index.html');
 });
 app.get('/search/:bloodGroup', (req, res) => {
     const result = donors.filter(d => d.bloodGroup === req.params.bloodGroup);

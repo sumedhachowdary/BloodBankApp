@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blood Bank v3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Blood Bank v3 - Add, Search, Delete</h1>
+
+<!-- ADD DONOR -->
+<h3>Add Donor</h3>
+<input type="text" id="name" placeholder="Enter Name">
+<input type="text" id="blood" placeholder="Enter Blood Group">
+<button onclick="addDonor()">Add Donor</button>
+
+<br><br>
+
+<!-- SEARCH DONOR -->
+<h3>Search Donor</h3>
+<input type="text" id="search" placeholder="Enter Blood Group">
+<button onclick="searchDonor()">Search</button>
+
+<br><br>
+
+<!-- DISPLAY LIST -->
+<h3>Donor List</h3>
+<ul id="list"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
